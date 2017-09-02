@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora Testing</title>
+	<link rel="stylesheet" type="text/css" href="diseñocalculadora.css" media="screen" />
+</head>
+<body>
+<script language="JavaScript" src="Calculadora.js"></script>
+<form name="calc" >
+  <table style="border: 1px solid #A4A4A4;background-color: #A9E2F3">
+    <tr>
+      <td>
+      <table >
+        <tr>
+          <td><input size="16" name="screen" class="ingreso"></td>
+        </tr>
+      </table>
+      <table >
+        <tr>
+          <td>
+          <input onclick="check('c')" type="button" value=" c " name="clear"></td>
+          <td>
+          <input onclick="check('ce')" type="button" value="ce" name="clearentry"></td>
+          <td>
+          <input onclick="check('(')" type="button" value=" (  " name="leftbracket"></td>
+          <td>
+          <input onclick="check(')')" type="button" value="  ) " name="rightbracket"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><input onclick="check('+')" type="button" value=" + " name="add"></td>
+          <td><input onclick="check(7)" type="button" value=" 7 " name="seven"></td>
+          <td><input onclick="check(8)" type="button" value=" 8 " name="eight"></td>
+          <td><input onclick="check(9)" type="button" value=" 9 " name="nine"></td>
+          <td>
+          <!--<input onclick="check('%')" type="button" value=" %" name="percent">--></td>
+        </tr>
+        <tr>
+          <td>
+          <input onclick="check('-')" type="button" value=" - " name="subtract"></td>
+          <td><input onclick="check(4)" type="button" value=" 4 " name="four"></td>
+          <td><input onclick="check(5)" type="button" value=" 5 " name="five"></td>
+          <td><input onclick="check(6)" type="button" value=" 6 " name="six"></td>
+          <td>
+          <!--<input onclick="check('3.14159')" type="button" value=" PI" name="pi">-->
+          	&#160;
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <input onclick="check('*')" type="button" value=" × " name="multiply"></td>
+          <td><input onclick="check(1)" type="button" value=" 1 " name="one"></td>
+          <td><input onclick="check(2)" type="button" value=" 2 " name="two"></td>
+          <td><input onclick="check(3)" type="button" value=" 3 " name="three"></td>
+          <td>
+          <!--<input onclick="check('sqt')" type="button" value="sqt" name="equalls1">-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <input onclick="check('/')" type="button" value=" ÷ " name="divide"></td>
+          <td><input onclick="check(0)" type="button" value=" 0 " name="zero"></td>
+          <td>
+          <input onclick="check('00')" type="button" value="00" name="doublezero"></td>
+          <td>
+          <input onclick="check('.')" type="button" value=" • " name="decimal"></td>
+          <td>
+          <!--<input onclick="check('^')" type="button" value="  ^ " name="power">-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <input onclick="check('=')" type="button" value=" = " name="equalls"></td>
+          <td><input onclick="check('?')" type="button" value=" ? " name="help"></td>
+          <td></td>
+          <td>
+          <!--<input onclick="check('+-')" type="button" value="+/-" name="posneg">-->
+          </td>
+          <td>
+          <!--<input onclick="check('1/x')" type="button" value="1/x" name="fraction">-->
+          </td>
+        </tr>
+      </table>
+	 </td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
