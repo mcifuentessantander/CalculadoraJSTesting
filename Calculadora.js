@@ -6,7 +6,7 @@ bracketcount=0;
 var temp="";
 var posneg=0;
 
-/* START SCROLLING MESSAGE IN CALCULATOR SCREEN */
+
 function scroll(jumpSpaces,position) {
 var msg = "SuperCalc v1.0"
 var out = ""
@@ -49,7 +49,7 @@ return true
 var scrollID = Object
 var scrolling = false
 var killScroll = false
-/*END SCROLLING MESSAGE IN CALCULATOR SCREEN */
+
 
 function check(checkbutton)
 {  if(checkbutton != 0 && checkbutton != 1 && checkbutton != 2 && checkbutton != 3 && checkbutton != 4 && checkbutton != 5 && checkbutton != 6 && checkbutton != 7 && checkbutton != 8 && checkbutton != 9)
